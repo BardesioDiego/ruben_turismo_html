@@ -49,7 +49,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -556,6 +556,8 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .img-thumbnail {
@@ -639,6 +641,10 @@ pre code {
 .title-section h1 {
   font-size: 2em;
   margin-bottom: 0.5em;
+}
+
+.paquetes-home{
+  background-color: #fdb73d !important;
 }
 
 @media (min-width: 576px) {
@@ -2400,9 +2406,17 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #9D2411;
-  border-color: #a72410;
+  background-color: #002940; 
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 0.8rem 2.2rem;
+  border-radius: 1.8rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  display: inline-block;
 }
 
 .btn-home{
@@ -2419,8 +2433,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #656565;
-  border-color: #656565;
+  background-color: #004466;
+  border-color: #004466;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2993,7 +3007,8 @@ fieldset:disabled a.btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
-  border-radius: 0;
+  border-radius: 5px;
+  background-color: #f9b34a;
 }
 
 .btn-block {
@@ -3328,6 +3343,41 @@ input[type="button"].btn-block {
 .btn-group > .btn-group:not(:first-child) {
   margin-left: -1px;
 }
+
+.boton-personalizado {
+  background-color: #002940; /* azul oscuro */
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 0.8rem 2.2rem;
+  border-radius: 1.8rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.boton-personalizado:hover {
+  background-color: #004466; /* tono más claro al pasar el mouse */
+}
+
+.bg-azul-oscuro {
+  background-color: #002940; /* Azul oscuro */
+}
+
+.icono-custom {
+  background-color: #F4A622; /* Amarillo anaranjado */
+  color: #002940; /* Ícono en azul oscuro */
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
 
 .dropdown-toggle-split {
   padding-right: 0.5625rem;
@@ -6174,7 +6224,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #9D2411!important;
+  background-color: #f9b34a !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6254,7 +6304,7 @@ button.bg-dark:focus {
 }
 
 .bg-white {
-  background-color: #fff !important;
+  background-color: #002840 !important;
 }
 
 .bg-transparent {
@@ -6266,7 +6316,7 @@ button.bg-dark:focus {
 }
 
 .border-top {
-  border-top: 1px solid #dee2e6 !important;
+  border-top: 1px solid #f9b34a !important;
 }
 
 .border-right {
@@ -9343,12 +9393,16 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+.text-feature{
+color: #002840 !important
+}
+
 .text-primary {
-  color: #9D2411 !important;
+  color: #002840 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #527a20 !important;
+  color: #FFFFFF !important;
 }
 
 .text-secondary {
@@ -9681,6 +9735,7 @@ h6,
 .package-item {
   transition: .5s;
   height: 100%;
+  border-radius: 20px;
 }
 
 .package-item:hover {
