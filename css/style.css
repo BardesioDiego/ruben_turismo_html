@@ -53,7 +53,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #656565;
+  color: #ffffff;
   text-align: left;
   background-color: #F3F3F3;
 }
@@ -6305,6 +6305,7 @@ button.bg-dark:focus {
 
 .bg-white {
   background-color: #002840 !important;
+  border-radius: 8%;
 }
 
 .bg-transparent {
@@ -7312,6 +7313,7 @@ button.bg-dark:focus {
 
 .position-absolute {
   position: absolute !important;
+  border-radius: 5%;
 }
 
 .position-fixed {
@@ -9702,6 +9704,9 @@ h6,
   }
 }
 
+.titulo-about{
+  color: #f9b34a;
+}
 .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-2.jpg), no-repeat center center;
   background-size: cover;
