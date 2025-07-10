@@ -44,6 +44,7 @@
     <a href="https://api.whatsapp.com/send?phone=59896474360&text=Hola me gustaria saber mas informacion"
         target="_blank" class="float m-4">
         <i class="fa-brands fa-whatsapp boton-wpp"></i>
+        <span class="badge-message">✈️ ¿Listo para tu próximo viaje?</span>
     </a>
     <!-- end wpp link-->
 
@@ -92,9 +93,10 @@
                 <a href="" class="navbar-brand">
                     <img src="img/ruben_turismo/logo_agencia_de_turismo_uruguay_rubennuñez.png" alt="Logo" style="height: 55px;">
                 </a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
                         <a href="index.html" class="nav-item nav-link">Inicio</a>
@@ -114,9 +116,7 @@
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" style="height: 110vh; object-fit: cover;"
-                        src="img/ruben_turismo/foto_home_agencia_de_turismo_uruguay_rubennuñez.png"
-                        alt="Image">
+                    <img class="w-100 home-hero" src="img/ruben_turismo/foto_home_agencia_de_turismo_uruguay_rubennuñez.png" alt="Imagen de portada">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">VIAJES & TURISMO</h>
@@ -155,8 +155,8 @@
           <!-- Texto -->
           <div class="d-flex flex-column justify-content-center"
                style="max-width: 200px; text-align: left;">
-            <h5 class="mb-1">Excursiones</h5>
-            <p class="m-0" style="font-size: 0.9rem;">Viví la experiencia de recorrer destinos increíbles a bordo de cómodos buses.</p>
+            <h5 class="mb-1 text-white" style="font-size: 1rem;">Excursiones</h5>
+            <p class="m-0" style="font-size: 0.8rem;">Viví la experiencia de recorrer destinos increíbles a bordo de cómodos buses.</p>
           </div>
         </div>
       </div>
@@ -171,8 +171,8 @@
           </div>
           <div class="d-flex flex-column justify-content-center"
                style="max-width: 200px; text-align: left;">
-            <h5 class="mb-1">Vuelos</h5>
-            <p class="m-0" style="font-size: 0.9rem;">Reservá tu vuelo con nosotros y asegurá el mejor precio y comodidad.</p>
+            <h5 class="mb-1 text-white" style="font-size: 1rem;">Vuelos</h5>
+            <p class="m-0" style="font-size: 0.8rem;">Reservá tu vuelo con nosotros y asegurá el mejor precio y comodidad.</p>
           </div>
         </div>
       </div>
@@ -185,8 +185,8 @@
           </div>
           <div class="d-flex flex-column justify-content-center"
                style="max-width: 200px; text-align: left;">
-            <h5 class="mb-1">Traslados</h5>
-            <p class="m-0" style="font-size: 0.9rem;">Te ofrecemos traslados privados y seguros para que llegues a tu destino.</p>
+            <h5 class="mb-1 text-white" style="font-size: 1rem;">Traslados</h5>
+            <p class="m-0" style="font-size: 0.8rem;">Te ofrecemos traslados privados y seguros para que llegues a tu destino.</p>
           </div>
         </div>
       </div>
@@ -199,8 +199,8 @@
           </div>
           <div class="d-flex flex-column justify-content-center"
                style="max-width: 200px; text-align: left;">
-            <h5 class="mb-1">Asistencia</h5>
-            <p class="m-0" style="font-size: 0.9rem;">Contamos con asistencia al viajero para que viajes seguro en todo momento.</p>
+            <h5 class="mb-1 text-white" style="font-size: 1rem;" >Asistencia</h5>
+            <p class="m-0" style="font-size: 0.8rem;">Contamos con asistencia al viajero para que viajes seguro en todo momento.</p>
           </div>
         </div>
       </div>
@@ -438,6 +438,15 @@
             </div>
         </div>
 
+        <!-- Columna 3: Imagen centrada -->
+        <div class="col-lg-3 col-md-6 mb-5 d-flex justify-content-center">
+            <div class="text-center">
+                <img src="img/ruben_turismo/operador_turistico_turismo.jpg" 
+                     alt="Operador turístico registrado"
+                     style="max-width: 200px; width: 100%; height: auto; border-radius: 16px;">
+            </div>
+        </div>
+
         <!-- Columna 2: Menú -->
         <div class="col-lg-3 col-md-6 mb-5">
             <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Menú</h5>
@@ -448,15 +457,6 @@
                 <a class="text-white-50 mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Grupales aéreos</a>
                 <a class="text-white-50 mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Cruceros</a>
                 <a class="text-white-50 mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Quinceañeras</a>
-            </div>
-        </div>
-
-        <!-- Columna 3: Imagen centrada -->
-        <div class="col-lg-3 col-md-6 mb-5 d-flex justify-content-center">
-            <div class="text-center" style="margin-left: -260px;">
-                <img src="img/ruben_turismo/operador_turistico_turismo.jpg" 
-                     alt="Operador turístico registrado"
-                     style="max-width: 200px; width: 100%; height: auto; border-radius: 16px;">
             </div>
         </div>
 
