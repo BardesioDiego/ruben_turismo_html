@@ -18,8 +18,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
 
     <!-- Font Awesome -->
@@ -30,6 +32,9 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap 4 CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -67,14 +72,14 @@
                         </a>
 
                         <!-- Instagram -->
-                        <a class="text-primary px-2" href="https://www.instagram.com/rnviajesyturismo?igsh=MThwa2EzMW1xcTdlaw%3D%3D"
+                        <a class="text-primary px-2"
+                            href="https://www.instagram.com/rnviajesyturismo?igsh=MThwa2EzMW1xcTdlaw%3D%3D"
                             target="_blank">
                             <i class="fab fa-instagram"></i>
                         </a>
 
                         <!-- Facebook -->
-                        <a class="text-primary px-2"
-                            href="https://www.facebook.com/share/1Ab4XRHKvp/" target="_blank">
+                        <a class="text-primary px-2" href="https://www.facebook.com/share/1Ab4XRHKvp/" target="_blank">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </div>
@@ -91,18 +96,28 @@
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
                 <a href="" class="navbar-brand">
-                    <img src="img/ruben_turismo/logo_agencia_de_turismo_uruguay_rubennuñez.png" alt="Logo" style="height: 55px;">
+                    <img src="img/ruben_turismo/logo_agencia_de_turismo_uruguay_rubennuñez.png" alt="Logo"
+                        style="height: 55px;">
                 </a>
-                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
-    <span class="navbar-toggler-icon"></span>
-</button>
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
                         <a href="index.html" class="nav-item nav-link">Inicio</a>
                         <a href="about.html" class="nav-item nav-link active">Nosotros</a>
-                        <a href="package.html" class="nav-item nav-link">Paquetes</a>
-                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" onclick="event.preventDefault()">Paquetes</a>
+                            <div class="dropdown-menu">
+                                <a href="grupales-terrestres.html" class="dropdown-item">Grupales terrestres</a>
+                                <a href="grupales-aereos.html" class="dropdown-item">Grupales aéreos</a>
+                                <a href="paquetes-individuales.html" class="dropdown-item">Paquetes individuales</a>
+                                <a href="cruceros.html" class="dropdown-item">Cruceros</a>
+                                <a href="quinceaneras.html" class="dropdown-item">Quinceañeras</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -116,7 +131,9 @@
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100 home-hero" src="img/ruben_turismo/foto_home_agencia_de_turismo_uruguay_rubennuñez.png" alt="Imagen de portada">
+                    <img class="w-100 home-hero"
+                        src="img/ruben_turismo/foto_home_agencia_de_turismo_uruguay_rubennuñez.png"
+                        alt="Imagen de portada">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">VIAJES & TURISMO</h>
@@ -140,80 +157,86 @@
     <!-- Carousel End -->
 
     <!-- Feature Start -->
-   <div class="container-fluid pb-4 pt-4 bg-azul-oscuro">
-  <div class="container pb-5">
-    <div class="row">
+    <div class="container-fluid pb-4 pt-4 bg-azul-oscuro">
+        <div class="container pb-5">
+            <div class="row">
 
-      <!-- Tarjeta -->
-      <div class="col-md-3 d-flex">
-        <div class="d-flex align-items-center w-100">
-          <!-- Ícono -->
-          <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
-               style="height: 100px; width: 100px;" data-aos="flip-left">
-            <i class="fa fa-2x fa-solid fa-handshake text-feature"></i>
-          </div>
-          <!-- Texto -->
-          <div class="d-flex flex-column justify-content-center"
-               style="max-width: 200px; text-align: left;">
-            <h5 class="mb-1 text-white" style="font-size: 1rem;">Excursiones</h5>
-            <p class="m-0" style="font-size: 0.8rem;">Viví la experiencia de recorrer destinos increíbles a bordo de cómodos buses.</p>
-          </div>
+                <!-- Tarjeta -->
+                <div class="col-md-3 d-flex">
+                    <div class="d-flex align-items-center w-100">
+                        <!-- Ícono -->
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
+                            style="height: 100px; width: 100px; border-radius: 15px;" data-aos="flip-left">
+                            <i class="fa fa-3x fa-solid fa-earth-americas text-feature"></i>
+                        </div>
+                        <!-- Texto -->
+                        <div class="d-flex flex-column justify-content-center"
+                            style="max-width: 200px; text-align: left;">
+                            <h5 class="mb-1 text-white" style="font-size: 1rem;">Excursiones</h5>
+                            <p class="m-0" style="font-size: 0.8rem;">Viví la experiencia de recorrer destinos
+                                increíbles a bordo de cómodos buses.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Repetí la misma estructura para las demás tarjetas -->
+
+                <div class="col-md-3 d-flex">
+                    <div class="d-flex align-items-center w-100">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
+                            style="height: 100px; width: 100px; border-radius: 15px;" data-aos="flip-left">
+                            <i class="fa fa-3x fa-solid fa-plane-departure text-feature"></i>
+
+                        </div>
+                        <div class="d-flex flex-column justify-content-center"
+                            style="max-width: 200px; text-align: left;">
+                            <h5 class="mb-1 text-white" style="font-size: 1rem;">Vuelos</h5>
+                            <p class="m-0" style="font-size: 0.8rem;">Reservá tu vuelo con nosotros y asegurá el mejor
+                                precio y comodidad.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 d-flex">
+                    <div class="d-flex align-items-center w-100">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
+                            style="height: 100px; width: 100px; border-radius: 15px;" data-aos="flip-left">
+                            <i class="fa fa-3x fa-solid fa-bus text-feature"></i>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center"
+                            style="max-width: 200px; text-align: left;">
+                            <h5 class="mb-1 text-white" style="font-size: 1rem;">Traslados</h5>
+                            <p class="m-0" style="font-size: 0.8rem;">Te ofrecemos traslados privados y seguros para que
+                                llegues a tu destino.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 d-flex">
+                    <div class="d-flex align-items-center w-100">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
+                            style="height: 100px; width: 100px; border-radius: 15px;" data-aos="flip-left">
+                            <i class="fa fa-3x fa-solid fa-1 text-feature"></i>
+                            <i class="fa fa-3x fa-solid fa-5 text-feature"></i>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center"
+                            style="max-width: 200px; text-align: left;">
+                            <h5 class="mb-1 text-white" style="font-size: 1rem;">Quinceañeras</h5>
+                            <p class="m-0" style="font-size: 0.8rem;">Celebramos los 15 con aventuras, amistades nuevas
+                                y momentos que quedan para siempre.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-      </div>
-
-      <!-- Repetí la misma estructura para las demás tarjetas -->
-
-      <div class="col-md-3 d-flex">
-        <div class="d-flex align-items-center w-100">
-          <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
-               style="height: 100px; width: 100px;" data-aos="flip-left">
-            <i class="fa fa-2x fa-solid fa-heart text-feature"></i>
-          </div>
-          <div class="d-flex flex-column justify-content-center"
-               style="max-width: 200px; text-align: left;">
-            <h5 class="mb-1 text-white" style="font-size: 1rem;">Vuelos</h5>
-            <p class="m-0" style="font-size: 0.8rem;">Reservá tu vuelo con nosotros y asegurá el mejor precio y comodidad.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 d-flex">
-        <div class="d-flex align-items-center w-100">
-          <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
-               style="height: 100px; width: 100px;" data-aos="flip-left">
-            <i class="fa fa-2x fa-solid fa-car text-feature"></i>
-          </div>
-          <div class="d-flex flex-column justify-content-center"
-               style="max-width: 200px; text-align: left;">
-            <h5 class="mb-1 text-white" style="font-size: 1rem;">Traslados</h5>
-            <p class="m-0" style="font-size: 0.8rem;">Te ofrecemos traslados privados y seguros para que llegues a tu destino.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 d-flex">
-        <div class="d-flex align-items-center w-100">
-          <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
-               style="height: 100px; width: 100px;" data-aos="flip-left">
-            <i class="fa fa-2x fa-solid fa-globe text-feature"></i>
-          </div>
-          <div class="d-flex flex-column justify-content-center"
-               style="max-width: 200px; text-align: left;">
-            <h5 class="mb-1 text-white" style="font-size: 1rem;" >Asistencia</h5>
-            <p class="m-0" style="font-size: 0.8rem;">Contamos con asistencia al viajero para que viajes seguro en todo momento.</p>
-          </div>
-        </div>
-      </div>
-
     </div>
-  </div>
-</div>
 
 
 
     <!-- Feature End -->
 
-       <!-- Packages Start -->
+    <!-- Packages Start -->
     <div class="container-fluid py-5 paquetes-home">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
@@ -227,60 +250,7 @@
                             alt="Cataratas_Iguazu">
                         <div class="p-4">
                             <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i
-                                        class="fa fa-map-marker-alt text-white mr-2"></i>Argentina</small>
-                                <small class="m-0"><i class="fa fa-user text-white mr-2"></i>7 días/4 noches</small>
-                            </div>
-                            <h6 class="text-white"><strong>Cataratas de Iguazú - Vacaciones de Julio</strong></h6>
-                            <div class="package-details mt-3" style="display: none;">
-                                <p style="font-size: 0.9em;">Incluye:</p>
-                                <p style="font-size: 0.8em;">
-                                    <strong>></strong> Bus semi-cama, servicio abordo, cena y desayuno abordo<br>
-                                    <strong>></strong> 4 noches de alojamiento con desayuno + 5 comidas + 1 abordo<br>
-                                    <strong>></strong> Tour Cataratas Argentinas con ingreso incluido<br>
-                                    <strong>></strong> Tour Cataratas Brasileñas con ingreso incluido<br>
-                                    <strong>></strong> Visita de la Represa de Itaipú y visita con tiempo libre en
-                                    Ciudad
-                                    del Este para compras<br>
-                                    <strong>></strong> Visita al Centro de Foz y Marco de las Tres Fronteras<br>
-                                    <strong>></strong> En ruta: Ruinas de San Ignacio Mini con ingreso incluido, Minas
-                                    de
-                                    Wanda y Casa de Horacio Quiroga (ingreso opcional)<br>
-                                    <strong>></strong> Seguro de Asistencia médica de Universal Assistance cobertura
-                                    especial COVID - 19
-                                </p>
-                                <p style="font-size: 0.8em;">
-                                    <strong>></strong> Desde U$S 600 por persona en habitación doble, triple y cuádruple
-                                </p>
-                                <p style="font-size: 0.9em;">Menores:</p>
-                                <p style="font-size: 0.8em;">
-                                    Hasta 5 años, máx. 1 por habitación compartiendo con 2 adultos: sin cargo<br>
-                                    <strong>></strong> Solo asiento, seguro de asistencia y servicio abordo: U$S 250
-                                </p>
-                            </div>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="text-white m-0">Precios desde:</h6>
-                                    <h5 class="text-white m-0">U$S 600</h5>
-                                </div>
-                            </div>
-                            <div class="text-center mt-3">
-                                <button class="btn btn-primary btn-sm btn-ver-mas">Ver más</button>
-                                <button class="btn btn-outline-primary btn-sm btn-ver-menos" style="display: none;">Ver
-                                    menos</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-               <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="package-item bg-white mb-2">
-                        <img class="img-fluid" src="img/cataratas_vacaciones_de_julio_paquete_otromundoturismo.png"
-                            alt="Cataratas_Iguazu">
-                        <div class="p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i
-                                        class="fa fa-map-marker-alt text-white mr-2"></i>Argentina</small>
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-white mr-2"></i>Argentina</small>
                                 <small class="m-0"><i class="fa fa-user text-white mr-2"></i>7 días/4 noches</small>
                             </div>
                             <h6 class="text-white"><strong>Cataratas de Iguazú - Vacaciones de Julio</strong></h6>
@@ -331,8 +301,58 @@
                             alt="Cataratas_Iguazu">
                         <div class="p-4">
                             <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i
-                                        class="fa fa-map-marker-alt text-white mr-2"></i>Argentina</small>
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-white mr-2"></i>Argentina</small>
+                                <small class="m-0"><i class="fa fa-user text-white mr-2"></i>7 días/4 noches</small>
+                            </div>
+                            <h6 class="text-white"><strong>Cataratas de Iguazú - Vacaciones de Julio</strong></h6>
+                            <div class="package-details mt-3" style="display: none;">
+                                <p style="font-size: 0.9em;">Incluye:</p>
+                                <p style="font-size: 0.8em;">
+                                    <strong>></strong> Bus semi-cama, servicio abordo, cena y desayuno abordo<br>
+                                    <strong>></strong> 4 noches de alojamiento con desayuno + 5 comidas + 1 abordo<br>
+                                    <strong>></strong> Tour Cataratas Argentinas con ingreso incluido<br>
+                                    <strong>></strong> Tour Cataratas Brasileñas con ingreso incluido<br>
+                                    <strong>></strong> Visita de la Represa de Itaipú y visita con tiempo libre en
+                                    Ciudad
+                                    del Este para compras<br>
+                                    <strong>></strong> Visita al Centro de Foz y Marco de las Tres Fronteras<br>
+                                    <strong>></strong> En ruta: Ruinas de San Ignacio Mini con ingreso incluido, Minas
+                                    de
+                                    Wanda y Casa de Horacio Quiroga (ingreso opcional)<br>
+                                    <strong>></strong> Seguro de Asistencia médica de Universal Assistance cobertura
+                                    especial COVID - 19
+                                </p>
+                                <p style="font-size: 0.8em;">
+                                    <strong>></strong> Desde U$S 600 por persona en habitación doble, triple y cuádruple
+                                </p>
+                                <p style="font-size: 0.9em;">Menores:</p>
+                                <p style="font-size: 0.8em;">
+                                    Hasta 5 años, máx. 1 por habitación compartiendo con 2 adultos: sin cargo<br>
+                                    <strong>></strong> Solo asiento, seguro de asistencia y servicio abordo: U$S 250
+                                </p>
+                            </div>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="text-white m-0">Precios desde:</h6>
+                                    <h5 class="text-white m-0">U$S 600</h5>
+                                </div>
+                            </div>
+                            <div class="text-center mt-3">
+                                <button class="btn btn-primary btn-sm btn-ver-mas">Ver más</button>
+                                <button class="btn btn-outline-primary btn-sm btn-ver-menos" style="display: none;">Ver
+                                    menos</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/cataratas_vacaciones_de_julio_paquete_otromundoturismo.png"
+                            alt="Cataratas_Iguazu">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-white mr-2"></i>Argentina</small>
                                 <small class="m-0"><i class="fa fa-user text-white mr-2"></i>7 días/4 noches</small>
                             </div>
                             <h6 class="text-white"><strong>Cataratas de Iguazú - Vacaciones de Julio</strong></h6>
@@ -385,28 +405,33 @@
     <!-- Packages End -->
 
     <!-- About Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid  bg-img-section py-5">
         <div class="container pt-5">
             <div class="row">
                 <div class="col-lg-6" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/ruben_turismo/foto_bus_agencia_de_turismo_uruguay_rubennuñez.png"
+                        <img class="position-absolute w-100 h-100"
+                            src="img/ruben_turismo/foto_bus_agencia_de_turismo_uruguay_rubennuñez.png"
                             style="object-fit: cover;" data-aos="fade-right">
                     </div>
                 </div>
                 <div class="col-lg-6 pt-5 pb-lg-5">
                     <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
-                        <h6 class="text-white text-uppercase" style="letter-spacing: 5px;">Experiencias que inspiran confianza</h6>
+                        <h6 class="text-white text-uppercase" style="letter-spacing: 5px;">Experiencias que inspiran
+                            confianza</h6>
                         <h1 class="mb-3 titulo-about">Ruben Nuñez Viajes y Turismo</h1>
                         <p>Tu compañía de confianza en excursiones. Con más de 20 años de experiencia y fundadores con
                             más de 30 años en el rubro, nos dedicamos a brindarte servicios de calidad y experiencias
                             memorables.</p>
                         <div class="row mb-4">
                             <div class="col-6">
-                                <img class="img-about " src="img/ruben_turismo/foto_grupo_agencia_de_turismo_uruguay_rubennuñez.png" alt="">
+                                <img class="img-about "
+                                    src="img/ruben_turismo/foto_grupo_agencia_de_turismo_uruguay_rubennuñez.png" alt="">
                             </div>
                             <div class="col-6">
-                                <img class="img-about" src="img/ruben_turismo/foto_familia_agencia_de_turismo_uruguay_rubennuñez.png" alt="">
+                                <img class="img-about"
+                                    src="img/ruben_turismo/foto_familia_agencia_de_turismo_uruguay_rubennuñez.png"
+                                    alt="">
                             </div>
                         </div>
                     </div>
@@ -417,68 +442,74 @@
     <!-- About End -->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
-    <div class="row pt-5">
-        <!-- Columna 1: Logo y descripción -->
-        <div class="col-lg-3 col-md-6 mb-5">
-            <a href="" class="navbar-brand">
-                <img src="img/ruben_turismo/logo_agencia_de_turismo_uruguay_rubennuñez.png" alt="Logo" style="height: 55px;">
-            </a>
-            <p>
-                Empresa de turismo en Uruguay con más de 10 años de experiencia. Ofrecemos vuelos internacionales,
-                excursiones en bus y paquetes especiales para viajes de 15 años.
-            </p>
-            <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Seguinos</h6>
-            <div class="d-flex justify-content-start">
-                <a class="btn btn-square mr-2 text-white"
-                    href="https://www.instagram.com/rnviajesyturismo?igsh=MThwa2EzMW1xcTdlaw%3D%3D" target="_blank"><i
-                        class="fab fa-instagram"></i></a>
-                <a class="btn btn-square text-white" href="https://www.facebook.com/share/1Ab4XRHKvp/" target="_blank"><i
-                        class="fab fa-facebook-f"></i></a>
+    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5">
+        <div class="row pt-5">
+            <!-- Columna 1: Logo y descripción -->
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="" class="navbar-brand">
+                    <img src="img/ruben_turismo/logo_agencia_de_turismo_uruguay_rubennuñez.png" alt="Logo"
+                        style="height: 55px;">
+                </a>
+                <p>
+                    Empresa de turismo en Uruguay con más de 10 años de experiencia. Ofrecemos vuelos internacionales,
+                    excursiones en bus y paquetes especiales para viajes de 15 años.
+                </p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Seguinos</h6>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-square mr-2 text-white"
+                        href="https://www.instagram.com/rnviajesyturismo?igsh=MThwa2EzMW1xcTdlaw%3D%3D"
+                        target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-square text-white" href="https://www.facebook.com/share/1Ab4XRHKvp/"
+                        target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </div>
             </div>
-        </div>
 
-        <!-- Columna 3: Imagen centrada -->
-        <div class="col-lg-3 col-md-6 mb-5 d-flex justify-content-center">
-            <div class="text-center">
-                <img src="img/ruben_turismo/operador_turistico_turismo.jpg" 
-                     alt="Operador turístico registrado"
-                     style="max-width: 200px; width: 100%; height: auto; border-radius: 16px;">
+            <!-- Columna 3: Imagen centrada -->
+            <div class="col-lg-3 col-md-6 mb-5 d-flex justify-content-center">
+                <div class="text-center">
+                    <img src="img/ruben_turismo/qr_agencia_de_turismo_uruguay_rubennuñez.png"
+                        alt="Operador turístico registrado"
+                        style="max-width: 200px; width: 100%; height: auto; border-radius: 16px;">
+                </div>
             </div>
-        </div>
 
-        <!-- Columna 2: Menú -->
-        <div class="col-lg-3 col-md-6 mb-5">
-            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Menú</h5>
-            <div class="d-flex flex-column justify-content-start">
-                <a class="text-white-50 mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Inicio</a>
-                <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>Paquetes individuales</a>
-                <a class="text-white-50 mb-2" href="package.html"><i class="fa fa-angle-right mr-2"></i>Grupales terrestres</a>
-                <a class="text-white-50 mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Grupales aéreos</a>
-                <a class="text-white-50 mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Cruceros</a>
-                <a class="text-white-50 mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Quinceañeras</a>
+            <!-- Columna 2: Menú -->
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Menú</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white-50 mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Inicio</a>
+                    <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>Paquetes
+                        individuales</a>
+                    <a class="text-white-50 mb-2" href="package.html"><i class="fa fa-angle-right mr-2"></i>Grupales
+                        terrestres</a>
+                    <a class="text-white-50 mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Grupales
+                        aéreos</a>
+                    <a class="text-white-50 mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Cruceros</a>
+                    <a class="text-white-50 mb-2" href="contact.html"><i
+                            class="fa fa-angle-right mr-2"></i>Quinceañeras</a>
+                </div>
             </div>
-        </div>
 
-        <!-- Columna 4: Contacto -->
-        <div class="col-lg-3 col-md-6 mb-5">
-            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contactanos</h5>
-            <p><i class="fa fa-map-marker-alt mr-2"></i>Elías Abdo 235, Tacuarembó</p>
-            <p><i class="fa fa-phone-alt mr-2"></i>+598 99 008 387</p>
-            <p><i class="fa fa-envelope mr-2"></i>info@viajesrubennunez.com</p>
+            <!-- Columna 4: Contacto -->
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contactanos</h5>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Elías Abdo 235, Tacuarembó</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+598 99 008 387</p>
+                <p><i class="fa fa-envelope mr-2"></i>info@viajesrubennunez.com</p>
+            </div>
         </div>
     </div>
-</div>
 
-<!-- Pie de página -->
-<div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5"
-    style="border-color: rgba(256, 256, 256, .1) !important;">
-    <div class="row">
-        <div class="col-lg-12 text-center text-md-right">
-            <p class="m-0 text-white-50">Diseñado por <a href="https://www.modernawebs.com/" target="_blank">mOderna</a></p>
+    <!-- Pie de página -->
+    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5"
+        style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="row">
+            <div class="col-lg-12 text-center text-md-right">
+                <p class="m-0 text-white-50">Diseñado por <a href="https://www.modernawebs.com/"
+                        target="_blank">mOderna</a></p>
+            </div>
         </div>
     </div>
-</div>
 
     <!-- Footer End -->
 
@@ -490,6 +521,14 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<!-- Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Bootstrap 4 JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
@@ -503,6 +542,7 @@
     <script>
         AOS.init();
     </script>
+    
 </body>
 
 </html>

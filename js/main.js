@@ -102,3 +102,8 @@ document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
             }
         });
     });
+
+   
+  $('.navbar-nav>div>a, .navbar-nav>a').on('click', function(){
+      $('.navbar-collapse').collapse('hide');
+  });
