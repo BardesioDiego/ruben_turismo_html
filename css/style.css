@@ -148,13 +148,13 @@ sup {
 }
 
 a {
-  color: #9D2411;
+  color: #d39e00;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #527a20;
+  color: #f9cb40;
   text-decoration: underline;
 }
 
@@ -3352,8 +3352,8 @@ input[type="button"].btn-block {
 
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
-  text-decoration: none;
-  background-color: #9D2411;
+ 
+  background-color: #f9b34a;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
