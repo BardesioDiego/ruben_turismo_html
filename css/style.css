@@ -9869,8 +9869,29 @@ h6,
 .titulo-about{
   color: #f9b34a;
 }
-.page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-2.jpg), no-repeat center center;
+.quinces{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/portadas/disney_portada.png), no-repeat center center;
+  background-size: cover;
+}
+
+.aereos{
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/portadas/aereos_portada.png), no-repeat center center;
+  background-size: cover;
+}
+
+
+.aereos_individuales{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/portadas/individuales_portada.png), no-repeat center center;
+  background-size: cover;
+}
+
+.cruceros {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/portadas/cruceros_portada.png), no-repeat center center;
+  background-size: cover;
+}
+
+.terrestres{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/portadas/terrestres_portada.png), no-repeat center center;
   background-size: cover;
 }
 
