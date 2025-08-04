@@ -56,7 +56,7 @@ body {
   line-height: 1.5;
   color: #ffffff;
   text-align: left;
-  background-color: #F3F3F3;
+  background-color: #f9b34a;
   overflow-x: hidden
 }
 
@@ -334,8 +334,8 @@ legend {
   position: absolute;
   top: 1px;   /* ajusta para que quede justo arriba */
   right: 37px; /* ajusta para que quede en la esquina */
-  background-color: #ff0000; /* rojo o el color que quieras */
-  color: white;
+  background-color: white; /* rojo o el color que quieras */
+  color: #002840;
   font-size: 10px;
   font-weight: bold;
   padding: 2px 6px;
@@ -2515,22 +2515,22 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  color: #fff;
-  background-color: #656565;
-  border-color: #656565;
+   color: #FFFFFF;
+  background-color: #f5b14a;
+  border-color: #f5b14a;
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
-  color: #fff;
-  background-color: #9D2411;
-  border-color: #9D2411;
+    color: #FFFFFF;
+  background-color: #f5b14a;
+  border-color: #f5b14a;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #656565;
-  border-color: #656565;
+   color: #FFFFFF;
+  background-color: #f5b14a;
+  border-color: #f5b14a;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -2539,9 +2539,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-secondary {
-  color: #212529;
-  background-color: #f4faec;
-  border-color: #f4faec;
+  color: #FFFFFF;
+  background-color: #f5b14a;
+  border-color: #f5b14a;
 }
 
 .btn-secondary:hover {
@@ -2582,9 +2582,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-success:hover {
-  color: #fff;
-  background-color: #656565;
-  border-color: #656565;
+   color: #FFFFFF;
+  background-color: #f5b14a;
+  border-color: #f5b14a;
 }
 
 .btn-success:focus, .btn-success.focus {
@@ -3096,6 +3096,19 @@ fieldset:disabled a.btn {
 .btn-block + .btn-block {
   margin-top: 0.5rem;
 }
+
+.btn-square {
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%; 
+}
+
+.btn-square:hover {
+    background-color: #f9b34a;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
@@ -7857,7 +7870,7 @@ button.bg-dark:focus {
 
 .pt-4,
 .py-4 {
-  padding-top: 1.5rem !important;
+  padding-top: 4.5rem !important;
 }
 
 .pr-4,
